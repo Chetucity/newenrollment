@@ -45,6 +45,7 @@ def register():
         user = User(user_id = user_id, email = email, first_name = first_name, last_name = last_name)
         # user.check_password_hash(password)
         # user.save()
+        print("..................---------------------------------")
         print("..................",user_id)
         print("..................",form.email.data)
         print("..................",form.password.data )
